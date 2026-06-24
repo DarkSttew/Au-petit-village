@@ -1,1 +1,45 @@
-<p>home works!</p>
+<main class="p-4">
+
+  <!-- Présentation -->
+  <section class="text-center py-8">
+    <h1 class="text-3xl font-bold text-[#DA001E] mb-4">
+      Au Petit Village
+    </h1>
+    <p class="text-[#151217] max-w-xl mx-auto">
+      Bienvenue dans notre boutique de figurines artisanales inspirées
+      d'Astérix & Obélix. Chaque pièce est faite main avec passion.
+    </p>
+  </section>
+
+  <!-- Catalogue -->
+  <section>
+    <h2 class="text-2xl font-bold text-[#151217] mb-6 text-center">
+      Nos figurines
+    </h2>
+
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+      @for (product of (products$ | async) ?? []; track product.id) {
+        <div class="bg-white rounded-lg shadow p-4 flex flex-col items-center">
+
+          <img [src]="product.image" [alt]="product.name"
+               class="w-full h-48 object-cover rounded mb-4">
+
+          <h3 class="text-lg font-bold text-[#151217]">{{ product.name }}</h3>
+
+          <p class="text-sm text-gray-600 text-center mt-2">
+            {{ product.description }}
+          </p>
+
+          <p class="text-[#DA001E] font-bold mt-3">{{ product.price }} €</p>
+
+          <a [routerLink]="['/product', product.id]"
+             class="mt-4 bg-[#DA001E] text-white px-4 py-2 rounded hover:bg-[#FDD90B] hover:text-[#151217] transition-colors">
+            Voir le détail
+          </a>
+
+        </div>
+      }
+    </div>
+  </section>
+
+</main>
