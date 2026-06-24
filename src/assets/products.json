@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "Astérix",
+    "description": "Figurine artisanale d'Astérix le Gaulois, faite main avec soin.",
+    "price": 29.99,
+    "image": "https://placehold.co/300x300?text=Asterix"
+  },
+  {
+    "id": 2,
+    "name": "Obélix",
+    "description": "Figurine artisanale d'Obélix et son menhir, peinte à la main.",
+    "price": 34.99,
+    "image": "https://placehold.co/300x300?text=Obelix"
+  },
+  {
+    "id": 3,
+    "name": "Idéfix",
+    "description": "Figurine artisanale du fidèle compagnon Idéfix.",
+    "price": 19.99,
+    "image": "https://placehold.co/300x300?text=Idefix"
+  },
+  {
+    "id": 4,
+    "name": "Panoramix",
+    "description": "Figurine artisanale du druide Panoramix avec sa faucille dorée.",
+    "price": 32.99,
+    "image": "https://placehold.co/300x300?text=Panoramix"
+  }
+]
+3
