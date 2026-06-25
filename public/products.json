@@ -2,29 +2,57 @@
   {
     "id": 1,
     "name": "Astérix",
-    "description": "Figurine artisanale d'Astérix le Gaulois, faite main avec soin.",
+    "description": "Figurine artisanale d'Astérix le Gaulois .",
     "price": 29.99,
-    "image": "https://placehold.co/300x300?text=Asterix"
+    "image": "asterix.jpg"
   },
   {
     "id": 2,
     "name": "Obélix",
-    "description": "Figurine artisanale d'Obélix et son menhir, peinte à la main.",
+    "description": "Figurine artisanale d'Obélix portant une imposante pile de livres Astérix.",
     "price": 34.99,
-    "image": "https://placehold.co/300x300?text=Obelix"
+    "image": "obelix.jpg"
   },
   {
     "id": 3,
     "name": "Idéfix",
-    "description": "Figurine artisanale du fidèle compagnon Idéfix.",
+    "description": "Figurine artisanale du fidèle Idéfix assis.",
     "price": 19.99,
-    "image": "https://placehold.co/300x300?text=Idefix"
+    "image": "idefix.jpg"
   },
   {
     "id": 4,
     "name": "Panoramix",
-    "description": "Figurine artisanale du druide Panoramix avec sa faucille dorée.",
+    "description": "Figurine artisanale du druide Panoramix marchant avec sa louche et sa cape rouge.",
     "price": 32.99,
-    "image": "https://placehold.co/300x300?text=Panoramix"
+    "image": "panoramix.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Abraracourcix",
+    "description": "Figurine artisanale du chef du village en tenue verte, les bras grands ouverts.",
+    "price": 31.99,
+    "image": "abraracourcix.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Assurancetourix",
+    "description": "Figurine artisanale du barde Assurancetourix chantant avec sa lyre dorée.",
+    "price": 27.99,
+    "image": "assurancetourix.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Cétautomatix",
+    "description": "Figurine artisanale du forgeron Cétautomatix marchant fièrement avec son marteau.",
+    "price": 28.99,
+    "image": "cetautomatix.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Ordralfabétix",
+    "description": "Figurine artisanale du poissonnier Ordralfabétix .",
+    "price": 26.99,
+    "image": "ordralfabetix.jpg"
   }
 ]
