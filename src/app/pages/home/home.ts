@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { AsyncPipe } from '@angular/common';
 import { ProductsService } from '../../services/products';
-import { Product } from '../../models/product.model';
+import { Figurine } from '../../models/figurine.model';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -13,7 +13,7 @@ import { Observable } from 'rxjs';
 })
 export class Home {
 
-  products$: Observable<Product[]>;
+  products$: Observable<Figurine[]>;
 
   constructor(private productsService: ProductsService) {
     this.products$ = this.productsService.getProducts();

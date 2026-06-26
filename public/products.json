@@ -2,7 +2,11 @@
   {
     "id": 1,
     "name": "Astérix",
-    "description": "Figurine artisanale d'Astérix le Gaulois .",
+    "description": "Figurine artisanale d'Astérix le Gaulois tendant la main, prêt à l'aventure.",
+    "details": "Astérix, le célèbre petit guerrier gaulois, est ici représenté dans une pose accueillante, la main tendue. Cette figurine capture parfaitement l'esprit du personnage : vif, courageux et toujours prêt à défendre son village contre les Romains grâce à la potion magique de Panoramix.",
+    "material": "Résine peinte à la main",
+    "height": "12 cm",
+    "weight": "150 g",
     "price": 29.99,
     "image": "asterix.jpg"
   },
@@ -10,20 +14,32 @@
     "id": 2,
     "name": "Obélix",
     "description": "Figurine artisanale d'Obélix portant une imposante pile de livres Astérix.",
+    "details": "Obélix, le fidèle ami d'Astérix et livreur de menhirs, est représenté ici portant fièrement une imposante pile de bandes dessinées. Tombé dans la potion magique étant petit, il possède une force surhumaine qu'il utilise avec enthousiasme et bonne humeur.",
+    "material": "Résine peinte à la main",
+    "height": "15 cm",
+    "weight": "250 g",
     "price": 34.99,
     "image": "obelix.jpg"
   },
   {
     "id": 3,
     "name": "Idéfix",
-    "description": "Figurine artisanale du fidèle Idéfix assis.",
+    "description": "Figurine artisanale du fidèle Idéfix assis, avec ses grandes oreilles tachetées.",
+    "details": "Idéfix, le petit chien d'Obélix, est ici représenté assis dans une pose adorable. Ce compagnon fidèle et sensible pleure à chaque fois qu'un arbre est abattu. Malgré sa petite taille, il est toujours au cœur des aventures gauloises.",
+    "material": "Résine peinte à la main",
+    "height": "6 cm",
+    "weight": "80 g",
     "price": 19.99,
     "image": "idefix.jpg"
   },
   {
     "id": 4,
     "name": "Panoramix",
-    "description": "Figurine artisanale du druide Panoramix marchant avec sa louche et sa cape rouge.",
+    "description": "Figurine artisanale du druide Panoramix marchant avec son bâton et sa cape rouge.",
+    "details": "Panoramix, le druide du village gaulois, est ici représenté marchant d'un pas décidé avec son bâton et sa cape rouge. Gardien du secret de la potion magique, il est le pilier de la résistance gauloise face aux envahisseurs romains.",
+    "material": "Résine peinte à la main",
+    "height": "11 cm",
+    "weight": "130 g",
     "price": 32.99,
     "image": "panoramix.jpg"
   },
@@ -31,6 +47,10 @@
     "id": 5,
     "name": "Abraracourcix",
     "description": "Figurine artisanale du chef du village en tenue verte, les bras grands ouverts.",
+    "details": "Abraracourcix, le chef du village gaulois, est représenté les bras grands ouverts dans sa tenue verte caractéristique. Porté en triomphe sur son bouclier par ses hommes, il est le chef respecté d'un village qui résiste encore et toujours à l'envahisseur.",
+    "material": "Résine peinte à la main",
+    "height": "13 cm",
+    "weight": "180 g",
     "price": 31.99,
     "image": "abraracourcix.jpg"
   },
@@ -38,6 +58,10 @@
     "id": 6,
     "name": "Assurancetourix",
     "description": "Figurine artisanale du barde Assurancetourix chantant avec sa lyre dorée.",
+    "details": "Assurancetourix, le barde du village, est ici représenté dans sa pose favorite : chantant avec passion sa lyre dorée à la main. Malgré son talent musical très discutable aux yeux de ses compatriotes, il reste un personnage attachant et plein d'enthousiasme.",
+    "material": "Résine peinte à la main",
+    "height": "14 cm",
+    "weight": "160 g",
     "price": 27.99,
     "image": "assurancetourix.jpg"
   },
@@ -45,13 +69,21 @@
     "id": 7,
     "name": "Cétautomatix",
     "description": "Figurine artisanale du forgeron Cétautomatix marchant fièrement avec son marteau.",
+    "details": "Cétautomatix, le forgeron du village, est représenté marchant fièrement avec son marteau. Personnage robuste et caractériel, il est souvent le premier à distribuer des coups lors des bagarres du village, notamment à l'encontre du malheureux barde Assurancetourix.",
+    "material": "Résine peinte à la main",
+    "height": "13 cm",
+    "weight": "200 g",
     "price": 28.99,
     "image": "cetautomatix.jpg"
   },
   {
     "id": 8,
     "name": "Ordralfabétix",
-    "description": "Figurine artisanale du poissonnier Ordralfabétix .",
+    "description": "Figurine artisanale du poissonnier Ordralfabétix portant son poisson de mer.",
+    "details": "Ordralfabétix, le poissonnier du village, est ici représenté portant fièrement son poisson. Souvent taquiné sur la fraîcheur de sa marchandise, il n'en reste pas moins un personnage incontournable de la vie du village gaulois et un ami fidèle.",
+    "material": "Résine peinte à la main",
+    "height": "12 cm",
+    "weight": "155 g",
     "price": 26.99,
     "image": "ordralfabetix.jpg"
   }

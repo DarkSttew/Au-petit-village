@@ -1,1 +1,74 @@
-<p>product works!</p>
+<main class="p-4 max-w-4xl mx-auto">
+
+  @if (product$ | async; as product) {
+
+    <!-- Titre -->
+    <h1 class="text-2xl font-bold text-[#151217] border-b-4 border-[#DA001E] pb-2 mb-6">
+      {{ product.name }}
+    </h1>
+
+    <!-- Image + infos rapides -->
+    <div class="flex flex-col gap-6 md:flex-row md:items-start mb-8">
+
+      <!-- Image -->
+      <div class="w-full md:w-1/2 border border-gray-200 rounded-lg p-4">
+        <img [src]="product.image" [alt]="product.name"
+             class="w-full object-contain max-h-80">
+      </div>
+
+      <!-- Infos rapides -->
+      <div class="flex flex-col gap-3 md:w-1/2 text-center md:text-left justify-center">
+        <p class="text-gray-600">{{ product.description }}</p>
+        <p class="text-3xl font-bold text-[#DA001E]">{{ product.price }} €</p>
+        <p class="text-sm text-gray-500">Matière : {{ product.material }}</p>
+      </div>
+
+    </div>
+
+    <!-- Description + Fiche technique -->
+    <div class="bg-[#F9D0A3] rounded-lg p-6 flex flex-col gap-6">
+
+      <!-- Description -->
+      <div>
+        <h2 class="text-xl font-bold text-[#DA001E] border-b-2 border-[#DA001E] pb-1 mb-3 text-center">
+          Description
+        </h2>
+        <p class="text-[#151217] text-center">{{ product.details }}</p>
+      </div>
+
+      <!-- Fiche technique -->
+      <div>
+        <h2 class="text-xl font-bold text-[#DA001E] border-b-2 border-[#DA001E] pb-1 mb-3 text-center">
+          Fiche Technique
+        </h2>
+        <div class="flex flex-col gap-2">
+          <div class="flex justify-between bg-white rounded px-4 py-2">
+            <span class="text-[#151217]">Matière :</span>
+            <span class="text-[#151217]">{{ product.material }}</span>
+          </div>
+          <div class="flex justify-between bg-white rounded px-4 py-2">
+            <span class="text-[#151217]">Hauteur :</span>
+            <span class="text-[#151217]">{{ product.height }}</span>
+          </div>
+          <div class="flex justify-between bg-white rounded px-4 py-2">
+            <span class="text-[#151217]">Poids :</span>
+            <span class="text-[#151217]">{{ product.weight }}</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bouton retour -->
+    <div class="mt-6">
+      <a routerLink="/"
+         class="bg-[#151217] text-white px-6 py-2 rounded hover:bg-[#DA001E] transition-colors">
+        ← Retour au catalogue
+      </a>
+    </div>
+
+  } @else {
+    <p class="text-center text-gray-500">Chargement...</p>
+  }
+
+</main>
